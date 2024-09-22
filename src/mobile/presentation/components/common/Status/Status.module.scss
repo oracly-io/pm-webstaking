@@ -1,0 +1,36 @@
+.status {
+  display: inline-block;
+  text-transform: capitalize;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #F0EAF8;
+
+  &.pending {
+    background-color: #1C1028;
+    border: 1px solid #3C2458;
+  }
+
+  &.staked {
+    background-color: #452167;
+    border: 1px solid transparent;
+  }
+
+  &.pendingUnstaked {
+    background-color: #1C1028;
+    border: 1px solid #3C2458;
+  }
+
+  &.unstaked {
+    background-color: #5D2E8C;
+    border: 1px solid transparent;
+  }
+
+  &.withdrawn {
+    background-color: #1C1028;
+    border: 1px solid #3C2458;
+  }
+}

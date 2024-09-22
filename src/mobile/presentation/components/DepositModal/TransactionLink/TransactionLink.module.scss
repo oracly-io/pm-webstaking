@@ -1,0 +1,16 @@
+.link {
+  color: #D4BDE9;
+
+  &:active {
+    color: #D4BDE9;
+  }
+}
+
+.icon {
+  margin-left: 8px;
+
+  svg {
+    width: 17px;
+    height: 17px;
+  }
+}

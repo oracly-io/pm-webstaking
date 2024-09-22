@@ -1,0 +1,27 @@
+.container {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.button {
+  width: fit-content;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 77px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  background-color: #5D2E8C;
+  transition: background-color .3s linear;
+
+  &:hover {
+    background-color: #7239AA;
+  }
+
+  &:active {
+    background-color: #8F56C7;
+  }
+}

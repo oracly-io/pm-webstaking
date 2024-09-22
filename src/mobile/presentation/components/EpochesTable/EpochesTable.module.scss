@@ -1,0 +1,13 @@
+.table {
+  margin-top: -56px;
+}
+
+.rewardCell {
+  display: inline-flex;
+  padding-left: 8px;
+}
+.headerColumn {
+  &:last-of-type {
+    padding-right: 0;
+  }
+}

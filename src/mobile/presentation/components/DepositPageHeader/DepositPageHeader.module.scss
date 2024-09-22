@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  padding-bottom: 56px;
+  background-color: #271937;
+  border-radius: 32px;
+
+  > * {
+    margin-bottom: 24px;
+  }
+}
+
+.goback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  border: 1px solid #3D2756;
+  border-radius: 50%;
+  transition: background-color .3s linear;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #3D1F5D;
+  }
+
+  &:active {
+    background-color: #5D2E8C;
+  }
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.stakeField {
+  margin: 0 auto;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #3D2756;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.currencyAmount {
+  font-size: 20px;
+}
+
+.labeledFieldContent {
+  row-gap: 12px;
+}
+
+.period {
+  font-size: 20px;
+  line-height: 0.7;
+}
+
+.unstake, .withdrawn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 38px;
+  background-color: #1A1126;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 100px;
+}

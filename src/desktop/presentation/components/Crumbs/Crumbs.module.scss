@@ -1,0 +1,17 @@
+.crumb {
+  position: relative;
+  margin-left: 34px;
+  color: #fff;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: -17px;
+    width: 1px;
+    height: 22px;
+    background-color: #d4bde9;
+    transform: rotate(25deg);
+  }
+}

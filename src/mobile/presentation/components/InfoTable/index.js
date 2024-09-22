@@ -1,0 +1,1 @@
+export * as InfoTable from './InfoTable'

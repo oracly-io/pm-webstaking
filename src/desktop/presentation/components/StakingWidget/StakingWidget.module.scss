@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 16px 80px 32px;
+  border-radius: 32px;
+  background-color: #291A39;
+}
+
+.divider {
+  width: 1px;
+  height: 56px;
+  margin: 0 32px;
+  background-color: #3D1F5D;
+}
+
+.general {
+  margin-left: 32px;
+}
+
+div.spinner {
+  width: 18px;
+  height: 18px;
+}
